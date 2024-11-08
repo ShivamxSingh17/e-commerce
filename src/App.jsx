@@ -20,7 +20,7 @@ function App() {
   useEffect(()=> {
     AOS.init({
       offset: 100,
-      duration: 800,
+      duration: 500,
       easing: "ease-in-sine",
       delay: 100,
     });
